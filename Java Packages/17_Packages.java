@@ -1,0 +1,55 @@
+/* packages */
+
+package Kamal;
+
+class A
+{
+      void show()
+	{
+		System.out.print("Packages");
+	}
+}
+class B
+{
+	public static void main(String[] args)
+	{
+		A c = new A();
+		c.show();
+	}
+}
+
+/*  for private it is not possible
+class A
+{
+      private void show()                     //private
+	{
+		System.out.print("Packages");
+	}
+}
+class B
+{
+	public static void main(String[] args)
+	{
+		A c = new A();
+		c.show();
+	}
+}
+
+
+// for protected it is possible
+class A
+{
+     protected void show()              // protected
+	{
+		System.out.print("Packages");
+	}
+}
+class B extends A
+{
+	public static void main(String[] args)
+	{
+		A c = new A();
+		c.show();
+	}
+}
+*/
