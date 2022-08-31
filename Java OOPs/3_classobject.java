@@ -1,0 +1,21 @@
+                 /* Class and object*/
+
+class Demo
+{
+	
+	int a = 10 ; 
+	String b = " Kamal";
+	void show()
+	{
+		System.out.print(a+" "+b);
+	}
+}	
+class Test 
+{
+	public static void main(String[] args)
+	{
+		Demo c = new Demo();   //creating an object of a demo class
+		c.show();              //  accesing show function using a object
+	}                            
+}
+
