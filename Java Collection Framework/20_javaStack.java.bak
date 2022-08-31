@@ -1,0 +1,20 @@
+import java.util.Stack;
+
+class Javacollections 
+{
+	public static void main(String[] args)
+	{
+		Stack<String> Name = new Stack<String>();  //lifo
+		
+		Name.push("Kamal");
+		Name.push("Sagar");
+		Name.push("Sijo");
+		
+		System.out.println(Name);
+		
+		Name.pop();  
+		System.out.println(Name);
+		
+	}
+}	
+}	
